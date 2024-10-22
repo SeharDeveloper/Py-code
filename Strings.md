@@ -11,7 +11,7 @@ Python
 'This is a string'
 
 Key Characteristics:
-
+- Multiline strings can be defined using triple quotes (''' or """).
 - Immutable: Once created, strings cannot be modified. To change a string, you must create a new one.
 - Indexing: Characters in a string are accessed using their index, starting from 0.
 - string[index] returns the character at the specified index.
