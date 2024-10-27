@@ -23,7 +23,7 @@ print(Dict.get('name'))#output: sehar
 Dict={'name':'sehar', 'Field':'Cs', 'Age':'19'}
 print(Dict.keys())#output: dict_keys(['name', 'Field', 'Age'])
 
-#.values-->ye keys ki valu deta ha
+#.values-->ye keys ki value deta ha
 Dict={'name':'sehar', 'Field':'Cs', 'Age':'19'}
 print(Dict.values()) #output: dict_values(['sehar', 'Cs', '19'])
 
@@ -36,11 +36,12 @@ Dict={'name':'sehar', 'Field':'Cs', 'Age':'19'}
 print(Dict.update({'Car':'BMW', 'city':'NewYork'}))
 print(Dict)#output:{'name': 'sehar', 'Field': 'Cs', 'Age': '19', 'Car': 'BMW', 'city': 'NewYork'}
 
-#popitem-->Removes and returns the last inserted key-value pair as a tuple.
-Dict={'name':'sehar', 'Field':'Cs', 'Age':'19'}
-item=Dict.popitem()
-print(item) #update method me 2 items ko add kiya tah last pe ye un 2 last items ko remove kr deta h
-print(Dict) #{'name': 'sehar', 'Field': 'Cs'}
+#popitem-->Removes and returns the last inserted key-value pair .
+Dict = {'name': 'sehar', 'Field': 'Cs', 'Age': '19'}
+item = Dict.popitem()
+print(item)
+print(Dict)  #Output {'name': 'sehar', 'Field': 'Cs'}
+
 
 #.clear--->Removes all items from the dictionary, leaving it empty.
 my_dict = {'name': 'Alice', 'age': 25}
@@ -52,7 +53,7 @@ my_dict = {'name': 'Alice', 'age': 25}
 my_dict.copy()
 print(my_dict) #output: {'name': 'Alice', 'age': 25}
 
-#setdefault--->Is me agr koi specufic value nhi di jati to ye us ko deafult value de deta ha
+#setdefault--->Is me agr koi specufic value nhi di jati to ye us ko default value de deta ha
 my_dict={'name':'Sehar', 'age': 22}
 value=my_dict.setdefault('city','unknown')
 print(value)   #output: unknown
