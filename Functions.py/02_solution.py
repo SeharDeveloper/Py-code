@@ -1,0 +1,6 @@
+#function with multiple variables
+def add_numbers(a,b):
+    return a+b
+print(add_numbers(2, 7))
+
+    
