@@ -1,4 +1,4 @@
-from First import chai
-import code_1
-
-chai("sehar")
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Dont listen to me")
+engine.runAndWait()
